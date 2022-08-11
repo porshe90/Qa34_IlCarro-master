@@ -1,0 +1,117 @@
+18:27:01.529  INFO  manager.ApplicationManager - All Tests run in Chrome Driver
+18:27:04.121  INFO  manager.ApplicationManager - Current Url --> https://ilcarro-1578153671498.web.app/search
+18:27:04.171  INFO  tests.TestBase - Start test with name --->addNewCarSuccess
+18:27:04.174  INFO  manager.MyListener - New Before find by --> By.xpath: //a[text()=' Logout ']
+18:27:09.262  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //a[text()=' Log in ']
+18:27:09.663  INFO  manager.MyListener - WebDriver start find element -->By.id: email
+18:27:10.022  INFO  manager.MyListener - WebDriver start find element -->By.id: password
+18:27:10.415  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+18:27:10.529  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+18:27:10.812  INFO  manager.MyListener - New Before find by --> By.xpath: //button[text()='Ok']
+18:27:11.868  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[text()='Ok']
+18:27:13.145  INFO  manager.MyListener - WebDriver start find element -->By.id: 1
+18:27:13.515  INFO  manager.MyListener - WebDriver start find element -->By.id: pickUpPlace
+18:27:13.820  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: div.pac-item
+18:27:15.451  INFO  manager.MyListener - WebDriver start find element -->By.id: make
+18:27:15.787  INFO  manager.MyListener - WebDriver start find element -->By.id: model
+18:27:16.104  INFO  manager.MyListener - WebDriver start find element -->By.id: year
+18:27:16.416  INFO  manager.MyListener - WebDriver start find element -->By.id: engine
+18:27:16.723  INFO  manager.MyListener - WebDriver start find element -->By.id: fuel
+18:27:17.073  INFO  manager.MyListener - WebDriver start find element -->By.id: gear
+18:27:17.381  INFO  manager.MyListener - WebDriver start find element -->By.id: wheelsDrive
+18:27:17.689  INFO  manager.MyListener - WebDriver start find element -->By.id: doors
+18:27:18.038  INFO  manager.MyListener - WebDriver start find element -->By.id: seats
+18:27:18.320  INFO  manager.MyListener - WebDriver start find element -->By.id: class
+18:27:18.608  INFO  manager.MyListener - WebDriver start find element -->By.id: fuelConsumption
+18:27:18.921  INFO  manager.MyListener - WebDriver start find element -->By.id: serialNumber
+18:27:19.243  INFO  manager.MyListener - WebDriver start find element -->By.id: price
+18:27:19.517  INFO  manager.MyListener - WebDriver start find element -->By.id: distance
+18:27:19.833  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: input[placeholder='Type feature']
+18:27:20.172  INFO  manager.MyListener - WebDriver start find element -->By.id: about
+18:27:20.554  INFO  manager.MyListener - WebDriver start find element -->By.id: photos
+18:27:20.622  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+18:27:21.741  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+18:27:22.021  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: div.dialog-container
+18:27:23.577  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: div.dialog-container h1
+18:27:23.632  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[text()='Search cars']
+18:27:23.940  INFO  tests.TestBase - Start test with name --->addNewCarSuccess2
+18:27:23.943  INFO  manager.MyListener - New Before find by --> By.xpath: //a[text()=' Logout ']
+18:27:25.102  INFO  manager.MyListener - WebDriver start find element -->By.id: 1
+18:27:25.431  INFO  manager.MyListener - WebDriver start find element -->By.id: pickUpPlace
+18:27:25.832  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: div.pac-item
+18:27:27.341  INFO  manager.MyListener - WebDriver start find element -->By.id: make
+18:27:27.653  INFO  manager.MyListener - WebDriver start find element -->By.id: model
+18:27:27.956  INFO  manager.MyListener - WebDriver start find element -->By.id: year
+18:27:28.231  INFO  manager.MyListener - WebDriver start find element -->By.id: engine
+18:27:28.521  INFO  manager.MyListener - WebDriver start find element -->By.id: fuel
+18:27:28.830  INFO  manager.MyListener - WebDriver start find element -->By.id: gear
+18:27:29.115  INFO  manager.MyListener - WebDriver start find element -->By.id: wheelsDrive
+18:27:29.389  INFO  manager.MyListener - WebDriver start find element -->By.id: doors
+18:27:29.637  INFO  manager.MyListener - WebDriver start find element -->By.id: seats
+18:27:29.900  INFO  manager.MyListener - WebDriver start find element -->By.id: class
+18:27:30.165  INFO  manager.MyListener - WebDriver start find element -->By.id: fuelConsumption
+18:27:30.449  INFO  manager.MyListener - WebDriver start find element -->By.id: serialNumber
+18:27:30.748  INFO  manager.MyListener - WebDriver start find element -->By.id: price
+18:27:31.035  INFO  manager.MyListener - WebDriver start find element -->By.id: distance
+18:27:31.320  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: input[placeholder='Type feature']
+18:27:31.577  INFO  manager.MyListener - WebDriver start find element -->By.id: about
+18:27:31.868  INFO  manager.MyListener - WebDriver start find element -->By.id: photos
+18:27:31.921  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+18:27:33.032  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+18:27:33.272  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: div.dialog-container
+18:27:33.926  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: div.dialog-container h1
+18:27:33.974  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[text()='Search cars']
+18:27:39.006  INFO  manager.MyListener - The name of method with error -->findElement
+18:27:39.026  INFO  manager.MyListener - We have a problem ---> org.openqa.selenium.NoSuchElementException: Unable to locate element: //button[text()='Search cars']
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'MacBook-Pro-Taya.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.6.5', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [748aa23f-8f1d-402b-9718-75d12146a5f2, findElement {using=xpath, value=//button[text()='Search cars']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 101.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220526203855, moz:debuggerAddress: localhost:55669, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 7609, moz:profile: /var/folders/s_/hl4vhy0959g..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 20.6.0, proxy: Proxy(), se:cdp: ws://localhost:55669/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 748aa23f-8f1d-402b-9718-75d12146a5f2
+18:27:39.034  INFO  tests.TestBase - Start test with name --->loginSuccess
+18:27:39.035  INFO  manager.MyListener - New Before find by --> By.xpath: //a[text()=' Logout ']
+18:27:39.059  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //a[text()=' Logout ']
+18:27:39.079  INFO  manager.MyListener - The name of method with error -->click
+18:27:39.080  INFO  manager.MyListener - We have a problem ---> org.openqa.selenium.ElementNotInteractableException: Element <a class="navigation-link ng-star-inserted" href="/logout?url=%2Flet-car-work"> could not be scrolled into view
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'MacBook-Pro-Taya.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.6.5', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [748aa23f-8f1d-402b-9718-75d12146a5f2, clickElement {id=2d0f87a5-a6c3-439b-a00f-39e5cb59cf31}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 101.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220526203855, moz:debuggerAddress: localhost:55669, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 7609, moz:profile: /var/folders/s_/hl4vhy0959g..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 20.6.0, proxy: Proxy(), se:cdp: ws://localhost:55669/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on MAC (748aa23f-8f1d-402b-9718-75d12146a5f2)] -> xpath: //a[text()=' Logout ']]
+Session ID: 748aa23f-8f1d-402b-9718-75d12146a5f2
+18:27:39.121  INFO  tests.TestBase - Start test with name --->registrationSuccess
+18:27:39.122  INFO  manager.MyListener - New Before find by --> By.xpath: //a[text()=' Logout ']
+18:27:39.147  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //a[text()=' Logout ']
+18:27:39.188  INFO  manager.MyListener - The name of method with error -->click
+18:27:39.189  INFO  manager.MyListener - We have a problem ---> org.openqa.selenium.ElementNotInteractableException: Element <a class="navigation-link ng-star-inserted" href="/logout?url=%2Flet-car-work"> could not be scrolled into view
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'MacBook-Pro-Taya.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.6.5', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [748aa23f-8f1d-402b-9718-75d12146a5f2, clickElement {id=2d0f87a5-a6c3-439b-a00f-39e5cb59cf31}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 101.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220526203855, moz:debuggerAddress: localhost:55669, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 7609, moz:profile: /var/folders/s_/hl4vhy0959g..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 20.6.0, proxy: Proxy(), se:cdp: ws://localhost:55669/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on MAC (748aa23f-8f1d-402b-9718-75d12146a5f2)] -> xpath: //a[text()=' Logout ']]
+Session ID: 748aa23f-8f1d-402b-9718-75d12146a5f2
+18:27:39.194  INFO  tests.TestBase - Start test with name --->searchAnyPeriod
+18:27:39.204  INFO  manager.MyListener - WebDriver start find element -->By.id: city
+18:27:44.225  INFO  manager.MyListener - The name of method with error -->findElement
+18:27:44.226  INFO  manager.MyListener - We have a problem ---> org.openqa.selenium.NoSuchElementException: Unable to locate element: #city
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'MacBook-Pro-Taya.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.6.5', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [748aa23f-8f1d-402b-9718-75d12146a5f2, findElement {using=id, value=city}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 101.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220526203855, moz:debuggerAddress: localhost:55669, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 7609, moz:profile: /var/folders/s_/hl4vhy0959g..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 20.6.0, proxy: Proxy(), se:cdp: ws://localhost:55669/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 748aa23f-8f1d-402b-9718-75d12146a5f2
+18:27:44.228  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .logo
+18:27:44.267  INFO  manager.MyListener - The name of method with error -->click
+18:27:44.267  INFO  manager.MyListener - We have a problem ---> org.openqa.selenium.ElementNotInteractableException: Element <a class="logo" href="/"> could not be scrolled into view
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'MacBook-Pro-Taya.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.6.5', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [748aa23f-8f1d-402b-9718-75d12146a5f2, clickElement {id=b6766d31-488e-4fef-852a-ed9f16b61adc}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 101.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220526203855, moz:debuggerAddress: localhost:55669, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 7609, moz:profile: /var/folders/s_/hl4vhy0959g..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 20.6.0, proxy: Proxy(), se:cdp: ws://localhost:55669/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on MAC (748aa23f-8f1d-402b-9718-75d12146a5f2)] -> css selector: .logo]
+Session ID: 748aa23f-8f1d-402b-9718-75d12146a5f2

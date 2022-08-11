@@ -1,0 +1,19 @@
+19:49:20.742  INFO  manager.ApplicationManager - All Tests run in Chrome Driver
+19:49:31.980  INFO  manager.ApplicationManager - Current Url --> https://ilcarro-1578153671498.web.app/search
+19:49:32.029  INFO  tests.TestBase - Start test with name --->loginSuccess
+19:49:32.036  INFO  manager.MyListener - New Before find by --> By.xpath: //a[text()=' Logout ']
+19:49:37.127  INFO  tests.TestBase - Test start with email : 'noa@gmail.com' & password 'Nnoa12345$'
+19:49:37.135  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //a[text()=' Log in ']
+19:49:37.541  INFO  manager.MyListener - WebDriver start find element -->By.id: email
+19:49:42.065  INFO  manager.MyListener - WebDriver start find element -->By.id: d
+19:49:47.117  INFO  manager.MyListener - The name of method with error -->findElement
+19:49:47.138  INFO  manager.MyListener - We have a problem ---> org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#d"}
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'MacBook-Pro-Taya.local', ip: 'fe80:0:0:0:c82:898c:57a2:236e%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.6.5', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b24be0edbb4fe8fd52b05326f1add348, findElement {using=id, value=d}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: /var/folders/s_/hl4vhy0959g...}, goog:chromeOptions: {debuggerAddress: localhost:65349}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:65349/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b24be0edbb4fe8fd52b05326f1add348
+19:49:47.146  INFO  manager.MyListener - New Before find by --> By.xpath: //button[text()='Ok']

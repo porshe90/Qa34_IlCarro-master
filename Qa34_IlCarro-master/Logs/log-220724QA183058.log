@@ -1,0 +1,29 @@
+18:31:05.389  INFO  manager.ApplicationManager - All Tests run in Chrome Driver
+18:31:08.912  INFO  manager.ApplicationManager - Current Url --> https://ilcarro-1578153671498.web.app/search
+18:31:08.957  INFO  tests.TestBase - Start test with name --->searchPeriodPast
+18:31:08.961  INFO  manager.MyListener - WebDriver start find element -->By.id: city
+18:31:10.041  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .pac-item
+18:31:10.206  INFO  manager.MyListener - WebDriver start find element -->By.id: dates
+18:31:10.473  INFO  manager.MyListener - WebDriver start find element -->By.id: dates
+18:31:11.293  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+18:31:12.475  INFO  manager.MyListener - The name of method with error -->click
+18:31:12.499  INFO  manager.MyListener - We have a problem ---> org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button _ngcontent-kes-c72="" type="submit" disabled="">...</button> is not clickable at point (207, 409). Other element would receive the click: <span class="mat-button-wrapper">...</span>
+  (Session info: chrome=103.0.5060.134)
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'MacBook-Pro-Taya.local', ip: '192.168.0.101', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.6.5', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d622395d986927f0b037faa17f4f3bea, clickElement {id=a41e0b92-d046-4ed0-b3b4-dd25f3e3e8b2}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: /var/folders/s_/hl4vhy0959g...}, goog:chromeOptions: {debuggerAddress: localhost:50312}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:50312/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (d622395d986927f0b037faa17f4f3bea)] -> css selector: button[type='submit']]
+Session ID: d622395d986927f0b037faa17f4f3bea
+18:31:12.504  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .logo
+18:31:13.666  INFO  manager.MyListener - The name of method with error -->click
+18:31:13.667  INFO  manager.MyListener - We have a problem ---> org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a _ngcontent-kes-c25="" href="/" class="logo">...</a> is not clickable at point (236, 34). Other element would receive the click: <div class="cdk-overlay-backdrop mat-overlay-transparent-backdrop cdk-overlay-backdrop-showing"></div>
+  (Session info: chrome=103.0.5060.134)
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'MacBook-Pro-Taya.local', ip: '192.168.0.101', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.6.5', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d622395d986927f0b037faa17f4f3bea, clickElement {id=ad6116c4-8e31-44c3-a812-c4121eb1872a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: /var/folders/s_/hl4vhy0959g...}, goog:chromeOptions: {debuggerAddress: localhost:50312}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:50312/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (d622395d986927f0b037faa17f4f3bea)] -> css selector: .logo]
+Session ID: d622395d986927f0b037faa17f4f3bea

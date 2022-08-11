@@ -1,0 +1,65 @@
+15:59:48.805  INFO  manager.ApplicationManager - All Tests run in Chrome Driver
+15:59:51.077  INFO  manager.ApplicationManager - Current Url --> https://ilcarro-1578153671498.web.app/search
+15:59:51.128  INFO  tests.TestBase - Start test with name --->loginSuccess2
+15:59:51.135  INFO  manager.MyListener - New Before find by --> By.xpath: //a[text()=' Logout ']
+15:59:56.169  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //a[text()=' Log in ']
+15:59:56.502  INFO  manager.MyListener - WebDriver start find element -->By.id: email
+15:59:57.408  INFO  manager.MyListener - WebDriver start find element -->By.id: password
+15:59:57.696  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+15:59:57.772  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+15:59:58.038  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: div.dialog-container
+15:59:59.129  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: div.dialog-container h1
+15:59:59.181  INFO  manager.MyListener - New Before find by --> By.xpath: //button[text()='Ok']
+15:59:59.215  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[text()='Ok']
+15:59:59.486  INFO  tests.TestBase - Start test with name --->registrationSuccess
+15:59:59.488  INFO  manager.MyListener - New Before find by --> By.xpath: //a[text()=' Logout ']
+15:59:59.517  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //a[text()=' Logout ']
+15:59:59.810  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //a[text()=' Sign up ']
+16:00:00.061  INFO  manager.MyListener - WebDriver start find element -->By.id: name
+16:00:00.320  INFO  manager.MyListener - WebDriver start find element -->By.id: lastName
+16:00:00.599  INFO  manager.MyListener - WebDriver start find element -->By.id: email
+16:00:00.907  INFO  manager.MyListener - WebDriver start find element -->By.id: password
+16:00:01.209  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: label[for='terms-of-use']
+16:00:01.402  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+16:00:01.447  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+16:00:01.698  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: div.dialog-container
+16:00:02.541  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: div.dialog-container h1
+16:00:02.568  INFO  manager.MyListener - New Before find by --> By.xpath: //button[text()='Ok']
+16:00:02.590  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[text()='Ok']
+16:00:02.855  INFO  tests.TestBase - Start test with name --->addNewCarSuccess
+16:00:02.858  INFO  manager.MyListener - New Before find by --> By.xpath: //a[text()=' Logout ']
+16:00:03.936  INFO  manager.MyListener - WebDriver start find element -->By.id: 1
+16:00:04.688  INFO  manager.MyListener - WebDriver start find element -->By.id: pickUpPlace
+16:00:05.316  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: div.pac-item
+16:00:07.842  INFO  manager.MyListener - WebDriver start find element -->By.id: make
+16:00:08.591  INFO  manager.MyListener - WebDriver start find element -->By.id: model
+16:00:09.093  INFO  manager.MyListener - WebDriver start find element -->By.id: year
+16:00:09.862  INFO  manager.MyListener - WebDriver start find element -->By.id: engine
+16:00:10.343  INFO  manager.MyListener - WebDriver start find element -->By.id: fuel
+16:00:10.609  INFO  manager.MyListener - WebDriver start find element -->By.id: gear
+16:00:10.864  INFO  manager.MyListener - WebDriver start find element -->By.id: wheelsDrive
+16:00:11.139  INFO  manager.MyListener - WebDriver start find element -->By.id: doors
+16:00:11.877  INFO  manager.MyListener - WebDriver start find element -->By.id: seats
+16:00:12.388  INFO  manager.MyListener - WebDriver start find element -->By.id: class
+16:00:13.133  INFO  manager.MyListener - WebDriver start find element -->By.id: fuelConsumption
+16:00:13.651  INFO  manager.MyListener - WebDriver start find element -->By.id: serialNumber
+16:00:14.411  INFO  manager.MyListener - WebDriver start find element -->By.id: price
+16:00:14.901  INFO  manager.MyListener - WebDriver start find element -->By.id: distance
+16:00:15.644  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: input[placeholder='Type feature']
+16:00:16.147  INFO  manager.MyListener - WebDriver start find element -->By.id: about
+16:00:16.900  INFO  manager.MyListener - WebDriver start find element -->By.id: photos
+16:00:16.949  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+16:00:18.555  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+16:00:19.301  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: div.dialog-container
+16:00:25.026  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[text()='Search cars']
+16:00:25.776  INFO  tests.TestBase - Start test with name --->searchAnyPeriod
+16:00:25.777  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .logo
+16:00:25.815  INFO  manager.MyListener - The name of method with error -->click
+16:00:25.816  INFO  manager.MyListener - We have a problem ---> org.openqa.selenium.ElementNotInteractableException: Element <a class="logo" href="/"> could not be scrolled into view
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'MBP-Taya.lan', ip: 'fe80:0:0:0:8a3:7de9:9053:ddfe%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.6.5', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [55fb0567-97d5-4748-9d44-2c918617aacb, clickElement {id=5eaa3c66-efad-4f91-918f-01d2d6f4130c}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 101.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220526203855, moz:debuggerAddress: localhost:59110, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 19001, moz:profile: /var/folders/s_/hl4vhy0959g..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 20.6.0, proxy: Proxy(), se:cdp: ws://localhost:59110/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on MAC (55fb0567-97d5-4748-9d44-2c918617aacb)] -> css selector: .logo]
+Session ID: 55fb0567-97d5-4748-9d44-2c918617aacb

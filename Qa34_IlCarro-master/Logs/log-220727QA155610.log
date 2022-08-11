@@ -1,0 +1,21 @@
+15:56:19.501  INFO  manager.ApplicationManager - All Tests run in Chrome Driver
+15:56:21.785  INFO  manager.ApplicationManager - Current Url --> https://ilcarro-1578153671498.web.app/search
+15:56:21.821  INFO  tests.TestBase - Start test with name --->registrationSuccess
+15:56:21.830  INFO  manager.MyListener - New Before find by --> By.xpath: //a[text()=' Logout ']
+15:56:26.867  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //a[text()=' Sign up ']
+15:56:27.221  INFO  manager.MyListener - WebDriver start find element -->By.id: name
+15:56:27.511  INFO  manager.MyListener - WebDriver start find element -->By.id: lastName
+15:56:27.804  INFO  manager.MyListener - WebDriver start find element -->By.id: email
+15:56:28.103  INFO  manager.MyListener - WebDriver start find element -->By.id: password
+15:56:28.387  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: label[for='terms-of-use']
+15:56:28.817  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: button[type='submit']
+15:56:33.844  INFO  manager.MyListener - The name of method with error -->findElement
+15:56:33.864  INFO  manager.MyListener - We have a problem ---> org.openqa.selenium.NoSuchElementException: Unable to locate element: button[type='submit']
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'MBP-Taya.lan', ip: 'fe80:0:0:0:8a3:7de9:9053:ddfe%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.6.5', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [b204faed-daaa-49d5-91e0-a599fe960844, findElement {using=css selector, value=button[type='submit']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 101.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220526203855, moz:debuggerAddress: localhost:55453, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 6047, moz:profile: /var/folders/s_/hl4vhy0959g..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 20.6.0, proxy: Proxy(), se:cdp: ws://localhost:55453/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b204faed-daaa-49d5-91e0-a599fe960844
+15:56:33.870  INFO  manager.MyListener - New Before find by --> By.xpath: //button[text()='Ok']
